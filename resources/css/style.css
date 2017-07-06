@@ -1,0 +1,47 @@
+html {
+  font-family: helvetica, sans-serif;
+}
+
+h1 {
+  color: #e05d00;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+
+.flex {
+  display: flex;
+}
+
+h2 {
+  text-transform: uppercase;
+  background-color: #eee;
+  padding: 3px 10px;
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  font-size: .9rem;
+  width: 100%;
+}
+
+header {
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin-left: 1rem;
+  font-weight: lighter;
+}
+
+main img {
+  height: 450px;
+  padding: 5px;
+}
+#pages, #photos{
+  margin-bottom: 5rem;
+}
