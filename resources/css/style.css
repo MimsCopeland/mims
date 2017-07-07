@@ -31,15 +31,28 @@ header {
   margin-bottom: 3rem;
 }
 
+nav a:hover {
+  font-weight: 600;
+}
+
 a {
   text-decoration: none;
   color: black;
   margin-left: 1rem;
   font-weight: lighter;
+  transition-property: font-weight;
+  transition-duration: 200ms;
+  transition-timing-function: ease;
 }
 
-main img {
-  height: 450px;
+
+#pages img {
+  height: 500px;
+  padding: 5px;
+}
+
+#photos img {
+  height: 400px;
   padding: 5px;
 }
 #pages, #photos{
