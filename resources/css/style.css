@@ -23,7 +23,7 @@ h2 {
   letter-spacing: 2px;
   font-weight: lighter;
   font-size: .9rem;
-  width: 100%;
+  width: 3600px;
 }
 
 header {
@@ -57,4 +57,9 @@ a {
 }
 #pages, #photos{
   margin-bottom: 5rem;
+}
+
+#about p {
+  margin: 10px;
+  width: 750px;
 }
