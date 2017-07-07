@@ -1,5 +1,5 @@
 html {
-  font-family: helvetica, sans-serif;
+  font-family: 'Work Sans', 'helvetica', sans-serif;
 }
 
 h1 {
@@ -33,14 +33,14 @@ header {
 
 nav a:hover {
   font-weight: 600;
+  color: #333;
 }
 
 a {
   text-decoration: none;
   color: black;
   margin-left: 1rem;
-  font-weight: lighter;
-  transition-property: font-weight;
+  transition-property: all;
   transition-duration: 200ms;
   transition-timing-function: ease;
 }
@@ -55,11 +55,12 @@ a {
   height: 400px;
   padding: 5px;
 }
-#pages, #photos{
+#pages, #photos, #about {
   margin-bottom: 5rem;
 }
 
 #about p {
   margin: 10px;
   width: 750px;
+  line-height: 1.25;
 }
