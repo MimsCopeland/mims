@@ -45,17 +45,17 @@ a {
   transition-timing-function: ease;
 }
 
-
+/*
 #pages img {
   height: 500px;
   padding: 5px;
 }
 
-#photos img {
+#work img {
   height: 400px;
   padding: 5px;
-}
-#pages, #photos, #about {
+}*/
+#pages, #work, #about {
   margin-bottom: 5rem;
 }
 
@@ -63,4 +63,24 @@ a {
   margin: 10px;
   width: 750px;
   line-height: 1.25;
+}
+
+.work-flex {
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding: 0 2rem;
+  margin: 1rem;
+  height: 600px;
+  background-color: #eee;
+}
+
+.item-img {
+  display: flex;
+  flex-shrink: 1;
+  width: 9rem;
 }
