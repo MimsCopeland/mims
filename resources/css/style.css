@@ -75,8 +75,11 @@ a {
   padding: 1rem;
   margin: 1rem;
   background-color: #eee;
+  height: 100%;
 }
 
 .item img {
   max-width: 100%;
+  margin-bottom: 1rem;
+  box-shadow: 5px 5px 10px #aaa;
 }
