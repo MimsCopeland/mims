@@ -46,16 +46,12 @@ a {
 }
 
 
-#pages img {
-  height: 500px;
+#work img {
+  width: 500px;
   padding: 5px;
 }
 
-#photos img {
-  height: 400px;
-  padding: 5px;
-}
-#pages, #photos, #about {
+#work, #about {
   margin-bottom: 5rem;
 }
 
