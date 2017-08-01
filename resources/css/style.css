@@ -7,8 +7,8 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: lighter;
-  margin: 1rem;
-  font-size: 1.5rem;
+  margin: 1rem 1rem 1rem 10rem;
+  font-size: 2rem;
 }
 
 .flex {
@@ -18,12 +18,11 @@ h1 {
 h2 {
   text-transform: uppercase;
   background-color: #eee;
-  padding: 3px 10px;
+  padding: 3px 10rem;
   margin-bottom: 5px;
   letter-spacing: 2px;
   font-weight: lighter;
-  font-size: .9rem;
-  width: 3600px;
+  font-size: 1rem;
 }
 
 header {
@@ -48,7 +47,19 @@ a {
 
 #work img {
   width: 500px;
-  padding: 5px;
+  margin-left: 10rem;
+  box-shadow: 5px 5px 15px #aaa;
+}
+
+#work p {
+  width: 400px;
+  margin-left: 2rem;
+  line-height: 1.25;
+}
+
+.item {
+  margin-top: 3rem;
+  align-items: center;
 }
 
 #work, #about {
