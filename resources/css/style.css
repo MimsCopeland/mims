@@ -49,14 +49,14 @@ a {
 
 
 #work img {
-  width: 500px;
+  width: 550px;
   margin-left: 10rem;
   box-shadow: 5px 5px 15px #aaa;
 }
 
 #work p {
   width: 400px;
-  margin-left: 2rem;
+  margin-left: 4rem;
   line-height: 1.25;
 }
 
@@ -73,4 +73,17 @@ a {
   margin: 1rem 10rem;
   width: 750px;
   line-height: 1.25;
+}
+
+.item img {
+    transition: transform .2s;
+}
+
+.item img:hover {
+    -ms-transform: scale(1.8); /* IE 9 */
+    -ms-transform-origin: 15%; /* IE 9 */
+    -webkit-transform: scale(1.8); /* Safari 3-8 */
+    -webkit-transform-origin: 15%;
+    transform: scale(1.8);
+    transform-origin: 15%;
 }
