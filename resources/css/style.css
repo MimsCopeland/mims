@@ -75,15 +75,15 @@ a {
   line-height: 1.25;
 }
 
-.item img {
+/*.item img {
     transition: transform .2s;
 }
 
 .item img:hover {
-    -ms-transform: scale(1.8); /* IE 9 */
-    -ms-transform-origin: 15%; /* IE 9 */
-    -webkit-transform: scale(1.8); /* Safari 3-8 */
+    -ms-transform: scale(1.8);  xxxx IE 9 
+    -ms-transform-origin: 15%; xxxx IE 9 
+    -webkit-transform: scale(1.8); xxx Safari 3-8 
     -webkit-transform-origin: 15%;
     transform: scale(1.8);
     transform-origin: 15%;
-}
+}*/
