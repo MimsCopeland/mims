@@ -74,3 +74,9 @@ a {
   width: 750px;
   line-height: 1.25;
 }
+
+#biz-page-link {
+  font-weight: bold;
+  color: gray;
+  margin-left: 0;
+}
