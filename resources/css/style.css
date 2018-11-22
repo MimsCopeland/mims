@@ -86,4 +86,6 @@ a {
     -webkit-transform-origin: 15%;
     transform: scale(1.8);
     transform-origin: 15%;
+    transition-timing-function: ease;
+
 }
